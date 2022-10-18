@@ -11,7 +11,6 @@ function ExpenseItem(props) {
    function ChangeTitleHandler() {
         setTitle('Updated');
     }
-
     return (
         <Card>
             <div className='expense-item '>
