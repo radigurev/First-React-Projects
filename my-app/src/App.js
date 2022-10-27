@@ -18,13 +18,13 @@ function App(props) {
 
   function AddNewExpense(expense) {
     setExpenses([
-      ...expenses,
       {
         id: expense.id,
         title: expense.title,
         amount: expense.amount,
         date: expense.date,
-      }
+      },
+      ...expenses
     ])
     console.log(expenses);
   }
